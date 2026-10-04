@@ -64,9 +64,11 @@ Une fois l'application démarrée :
 
 ```
 miniwallet/
+├── .github/            Modèle de pull request (et CI à l'étape 5)
 ├── docs/               Documentation (vision, glossaire, décisions)
 ├── src/                Code source et tests (à partir de l'étape 3)
 ├── .gitattributes      Règles de fins de ligne
 ├── .gitignore          Fichiers exclus de Git
+├── CONTRIBUTING.md     Guide de contribution
 └── README.md           Ce fichier
 ```
