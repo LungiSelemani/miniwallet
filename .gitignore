@@ -1,0 +1,27 @@
+# ===== Fichiers générés par Maven et Java =====
+target/
+*.class
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== Spring Initializr =====
+HELP.md
+
+# ===== IDE et éditeurs =====
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# ===== Fichiers système =====
+.DS_Store
+Thumbs.db
+
+# ===== Journaux =====
+*.log
+logs/
+
+# ===== Secrets : ne JAMAIS versionner =====
+.env
+!.env.example
+*.pem
+*.key

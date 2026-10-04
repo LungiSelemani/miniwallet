@@ -1,0 +1,11 @@
+# Par défaut : Git détecte les fichiers texte et les stocke avec des fins de ligne LF
+* text=auto eol=lf
+
+# Scripts Windows : ils exigent des fins de ligne CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Fichiers binaires : ne jamais les modifier
+*.jar binary
+*.png binary
+*.jpg binary
